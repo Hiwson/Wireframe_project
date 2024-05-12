@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        *{box-sizing: border-box; font-family: 'Times New Roman', Times, serif;}
+        body{background-color: antiquewhite;}
+        .header{text-align: center;}
+        #sp1{color:red;}
+        #sp2{color:orange;}
+        .header2{
+            display:flex;
+            flex-direction: row;
+        }
+        input{border-radius: 15px;}
+        .nav{
+            position: sticky;
+            top: 1px;
+            bottom: 1px;
+            float: right;
+            background-color: orange;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            width:100%;
+            z-index: 2;
+        }
+        ul{
+            list-style-type: none;
+            display: inline-flex;
+            margin-right: 70px;
+        }
+        ul li a{color: #000; text-decoration:none}
+        li{margin-right: 50px; color: #000;}
+        
+        a:hover{
+            font-weight:bolder;
+            text-decoration: underline;
+            text-decoration-color: red;
+            text-decoration-thickness: 5px;
+        }
+        .big-img{
+            margin-top: 10px;
+            width: 100%;
+        }
+        .courocels{
+            display:flex;
+            flex-direction: row;
+            margin-left: 20px;
+        }
+        #cor-img{margin-right: 20px; margin-left: 20px; border-radius: 15px;}
+        .middle-txt{text-align: center; text-shadow: 6px;}
+        button{color: rgb(255, 94, 0); border-radius: 15px;}
+        button:hover{background-color: rgb(255, 94, 0); color: black;}
+        .story-container{
+            display: flex;
+            flex-flow: row;
+            flex-direction: row;
+        }
+        .story{white-space: nowrap;}
+        .img-container{margin-left:30%;}
+        .card{
+            margin-right: 20px;
+            border-style: none;
+        }
+        .card-group{z-index: -1;}
+        .ft{background-color: rgb(153, 130, 96);}
+        #social-head{font-weight: 25px;}
+        i:hover{color: rgb(255, 94, 0) ;}
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="header"><h1><b>ME <span id="sp1">&</span> U <span id="sp2">AUTO SPARES</span></b></h1></div>
+
+    <div class="header2">
+        <input type="search" placeholder="search here">
+        <div class="logo">Logo here</div>
+    </div>
+
+    <hr>
+    <div class="nav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">OFFERS</a></li>
+            <li><a href="#">FAVOURITES</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+    </div><hr>
+    
+    <div class="big-img">
+        <img src="C:\Users\Hp\Pictures\Saved Pictures\0.webp" alt="image 1" style="width:100%; height: 400px;">
+        <div class="bottom-txt">words at bottom</div>
+    </div>
+    <hr>
+
+    <div class="middle-txt"><h2>New Arrivals</h2></div>
+    <div class="card-group">
+        <div class="card">
+          <img src="C:\Users\Hp\Pictures\Saved Pictures\5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p>Price:$13</p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="C:\Users\Hp\Pictures\Saved Pictures\6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p>Price:$13</p>
+            </div>
+          </div>
+        <div class="card">
+          <img src="C:\Users\Hp\Pictures\Saved Pictures\3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p>Price:$13</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="C:\Users\Hp\Pictures\Saved Pictures\2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p>Price:$13</p>
+          </div>
+        </div>
+      </div>
+
+    <div class="big-img">
+        <img src="C:\Users\Hp\Pictures\Saved Pictures\5.jpg" alt="image 1" style="width:100%; height: 400px;">
+        <div class="bottom-txt">words at bottom</div>
+    </div>
+    <hr>
+
+    <div class="middle-txt"><h2>New Arrivals</h2></div>
+    <div class="card-group">
+        <div class="card">
+          <img src="C:\Users\Hp\Pictures\Saved Pictures\5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p>Price:$13</p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="C:\Users\Hp\Pictures\Saved Pictures\6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p>Price:$13</p>
+            </div>
+          </div>
+        <div class="card">
+          <img src="C:\Users\Hp\Pictures\Saved Pictures\3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p>Price:$13</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="C:\Users\Hp\Pictures\Saved Pictures\2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p>Price:$13</p>
+          </div>
+        </div>
+      </div>
+    <hr>
+
+    <div class="story-container">
+        <div class="story">
+            <h5>Our History</h5>
+            <p>We are a big company etablished in eaerly 90's,we offer various products <br>that are of high quality to to ensure that the vehicle<br>
+            of our esteemed customers are well operating and the quality that gives  <br> a long life-time saving the customers money because their <br>
+            parts wount keep on breaking now and then
+            </p>
+            <p>We are a big company etablished in eaerly 90's,we offer various products <br>that are of high quality to to ensure that the vehicle<br>
+                of our esteemed customers are well operating and the quality that gives  <br> a long life-time saving the customers money because their <br>
+                parts wount keep on breaking now and then
+            </p>
+            <p>
+                We are a big company etablished in eaerly 90's,we offer various products <br>that are of high quality to to ensure that the vehicle<br>
+            of our esteemed customers are well operating and the quality that gives  <br> a long life-time saving the customers money because their <br>
+            parts wount keep on breaking now and then
+            </p>
+            <button>Read More</button>
+        </div>
+        <div class="img-container">
+            <img src="C:\Users\Hp\Pictures\Saved Pictures\22.jpg" alt="image 7" id="story-img" style="height: 500px; width: 600px; border-radius: 15px;">
+        </div>
+    </div>
+    <hr>
+
+    <div class="card-group">
+        <div class="card">
+          <img src="C:\Users\Hp\Pictures\Saved Pictures\5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p>Price:$13</p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="C:\Users\Hp\Pictures\Saved Pictures\6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p>Price:$13</p>
+            </div>
+          </div>
+        <div class="card">
+          <img src="C:\Users\Hp\Pictures\Saved Pictures\3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p>Price:$13</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="C:\Users\Hp\Pictures\Saved Pictures\2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p>Price:$13</p>
+          </div>
+        </div>
+      </div>
+    <hr>
+    <footer class="ft">
+        <div class="socials">
+            <h5 id="social-head">Find Us on socials</h5>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-solid fa-phone"></i>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
